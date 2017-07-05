@@ -1,0 +1,9 @@
+[
+  {
+    "name":"Acme App",
+    "actionItem":"Restart",
+    "recurring":true,
+    "sequence":"Weekly",
+    "time":"Tuesday"
+  }
+]

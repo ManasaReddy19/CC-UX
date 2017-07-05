@@ -1,0 +1,29 @@
+[
+  {
+    "name":"Dashboard",
+    "class":"dashboard",
+    "sref":"dashboard"
+  },
+  {
+    "name":"Activity",
+    "class":"activity"
+  },
+  {
+    "name":"Applications",
+    "class":"application",
+    "sref":"applications"
+  },
+  {
+    "name":"Server",
+    "class":"server",
+    "sref":"environment"
+  },
+  {
+    "name":"Profile",
+    "class":"profile"
+  },
+  {
+    "name":"Settings",
+    "class":"settings"
+  }
+]

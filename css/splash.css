@@ -1,0 +1,78 @@
+.cc-icon-text {
+    margin-top: 15px !important;
+    font-size: 18px !important;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.profile-pic {
+    height: 74px;
+    width: 74px;
+}
+
+.cc-title-text {
+    margin-top: 16px;
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+.cc-ge-logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cc-body {
+    margin-top: 50px;
+}
+
+.cc-intro-right {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.cc-intro-right-greeting {
+    margin-top: 20px;
+    margin-left: 30px;;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cc-intro-right-status {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.cc-icon-section-container {
+    margin-top: 30px;
+}
+
+.cc-icon-container {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.cc-welcome-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.cc-intro-section {
+    margin-bottom: 30px !important;
+}
+
+.center-it {
+    margin: auto;
+}
+
+.status-check {
+    margin-bottom: 12px;
+}
+
+body {
+    background: #192f40 !important;
+    padding: 0 !important;
+}

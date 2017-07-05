@@ -1,0 +1,232 @@
+[
+  {
+    "apps": [
+      {
+        "app_name": "Acme App",
+        "status": "up",
+        "environments": 2,
+        "servers": 13,
+        "downtime": 4,
+        "activity_cnt": 4,
+        "nextActivityName": "Downtime",
+        "nextActivityTime": "2016-03-01T10:59:432Z",
+        "activities": [
+          { 
+            "env_name": "DEV",
+            "activity_count": 2
+          },
+          {
+            "env_name": "PROD",
+            "activity_count": 2
+          }
+        ]
+      },
+
+      {
+        "app_name": "Vorzon App",
+        "status": "over",
+        "environments": 4,
+        "servers": 20,
+        "downtime": 8,
+        "activity_cnt": 8,
+        "nextActivityName": "Patch",
+        "nextActivityTime": "2016-03-02T10:59:432Z",
+        "activities": [
+          { 
+            "env_name": "DEV",
+            "d": 1
+          },
+          {
+            "env_name": "PROD",
+            "activity_count": 2
+          },
+          {
+            "env_name": "QA",
+            "activity_count": 4
+          },
+          {
+            "env_name": "STAGING",
+            "activity_count": 1
+          }
+        ]
+      },
+
+      {
+        "app_name": "The Best App",
+        "status": "down",
+        "environments": 3,
+        "servers": 6,
+        "downtime": 8,
+        "activity_cnt": 7,
+        "nextActivityName": "Start",
+        "nextActivityTime": "2016-03-03T10:59:432Z",
+        "activities": [
+          {
+            "env_name": "DEV",
+            "activity_count": 1
+          },
+          {
+            "env_name": "PROD",
+            "activity_count": 5
+          },
+          {
+            "env_name": "STAGING",
+            "activity_count": 1
+          }
+        ]
+      },
+
+      {
+        "app_name": "The Mediocre App",
+        "status": "up",
+        "environments": 4,
+        "servers": 30,
+        "downtime": 40,
+        "activity_cnt": 20,
+        "nextActivityName": "Upgrade Opt Out",
+        "nextActivityTime": "2016-03-04T10:59:432Z",
+        "activities": [
+          {
+            "env_name": "DEV",
+            "activity_count": 2
+          },
+          {
+            "env_name": "PROD",
+            "activity_count": 8
+          },
+          {
+            "env_name": "STAGING",
+            "activity_count": 6
+          },
+          {
+            "env_name": "QA",
+            "activity_count": 4
+          }
+        ]
+      }
+    ],
+    "servers": [
+      {
+        "server_name": "DB Server",
+        "status": "down",
+        "app_name": "Acme App",
+        "app_env": "Development",
+        "activity_cnt": 2,
+        "nextActivityName": "Start",
+        "nextActivityTime": "2016-03-01T10:59:432Z",
+        "activities": [
+          {
+            "inst_id": 1,
+            "inst_name": "awsoga236",
+            "ge_id": 32,
+            "app_name": "Acme App",
+            "env_name": "Development",
+            "activity_name": "Start",
+            "activity_time": "2016-03-01T10:59:432Z",
+            "status": "open"
+          },
+          
+          {
+            "inst_id": 1,
+            "inst_name": "awsoga200",
+            "ge_id": 776,
+            "app_name": "Acme App",
+            "env_name": "Development",
+            "activity_name": "Stop",
+            "activity_time": "2016-03-02T10:59:432Z",
+            "status": "open"
+          }
+        ]
+      },
+
+      {
+        "server_name": "DB Server",
+        "status": "down",
+        "app_name": "CloudControl",
+        "app_env": "Production",
+        "activity_cnt": 1,
+        "nextActivityName": "Stop",
+        "nextActivityTime": "2016-03-04T10:59:432Z",
+        "activities": [
+          {
+            "inst_id": 1,
+            "inst_name": "awsoga23",
+            "ge_id": 1,
+            "app_name": "CloudControl",
+            "env_name": "Production",
+            "activity_name": "Stop",
+            "activity_time": "2016-03-04T10:59:432Z",
+            "status": "open"
+          }
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "inst_id": 2,
+        "inst_name": "awsoga239",
+        "ge_id": 1,
+        "app_name": "CloudControl",
+        "env_name": "Development",
+        "activity_name": "Disk Size",
+        "activity_time": "2016-03-01T10:59:432Z",
+        "status": "open"
+      },
+      
+      {
+        "inst_id": 5,
+        "inst_name": "awsoga29",
+        "ge_id": 1,
+        "app_name": "Acme App",
+        "env_name": "Staging",
+        "activity_name": "Patch",
+        "activity_time": "2016-03-03T10:59:432Z",
+        "status": "closed"
+      },
+      
+      {
+        "inst_id": 3,
+        "inst_name": "awsoga28",
+        "ge_id": 7,
+        "app_name": "Vorzon App",
+        "env_name": "QA",
+        "activity_name": "Patch",
+        "activity_time": "2016-03-06T10:59:432Z",
+        "status": "deleted"
+      },
+
+      {
+        "inst_id": 8,
+        "inst_name": "awsoga20",
+        "ge_id": 5,
+        "app_name": "The Best App",
+        "env_name": "Production",
+        "activity_name": "Downtime",
+        "activity_time": "2016-03-07T10:59:432Z",
+        "status": "open"
+      },
+
+      {
+        "inst_id": 8,
+        "inst_name": "awsoga21",
+        "ge_id": 1,
+        "app_name": "Vorzon App",
+        "env_name": "Development",
+        "activity_name": "Downsize Opt Out",
+        "activity_time": "2016-02-20T10:59:432Z",
+        "status": "open"
+      },
+
+      {
+        "inst_id": 6,
+        "inst_name": "awsoga23",
+        "ge_id": 2,
+        "app_name": "CloudControl",
+        "env_name": "Staging",
+        "activity_name": "Stop",
+        "activity_time": "2016-02-19T10:59:432Z",
+        "status": "closed"
+      }
+    ]
+  }
+]

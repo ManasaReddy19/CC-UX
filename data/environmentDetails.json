@@ -1,0 +1,203 @@
+[
+  {
+    "serverStatus":{
+      "up":20,
+      "down":5
+    },
+    "serverTime":{
+      "uptime":43,
+      "downtime":15,
+      "overtime":"$5,250"
+    },
+    "appServers": 25,
+    "checkAll":false,
+    "servers":[
+      {
+        "name":"ABC Server",
+        "select":false,
+        "status":"up",
+        "activitySchedule":7,
+        "upComingSchedule":"<span class='time-display'>08:50 AM</span> Start"
+      },
+      {
+        "name":"Acme Server",
+        "select":false,
+        "status":"up",
+        "activitySchedule":9,
+        "upComingSchedule":"<span class='time-display'>09:00 AM</span> Restart"
+      },
+      {
+        "name":"DB Server",
+        "select":false,
+        "status":"up",
+        "activitySchedule":11,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Stop"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":15,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Patch"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"up",
+        "activitySchedule":11,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Stop"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":7,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Downsize Opt Out"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"up",
+        "activitySchedule":8,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Disk Size"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":9,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Patch"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"up",
+        "activitySchedule":12,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Stop"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":15,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Patch"
+      },
+      {
+        "name":"ABC Server",
+        "select":false,
+        "status":"up",
+        "activitySchedule":7,
+        "upComingSchedule":"<span class='time-display'>08:50 AM</span> Start"
+      },
+      {
+        "name":"Acme Server",
+        "select":false,
+        "status":"up",
+        "activitySchedule":9,
+        "upComingSchedule":"<span class='time-display'>09:00 AM</span> Restart"
+      },
+      {
+        "name":"DB Server",
+        "select":false,
+        "status":"up",
+        "activitySchedule":11,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Stop"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":15,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Patch"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"up",
+        "activitySchedule":11,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Stop"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":7,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Downsize Opt Out"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"up",
+        "activitySchedule":8,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Disk Size"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":9,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Patch"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"up",
+        "activitySchedule":12,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Stop"
+      },
+      {
+        "name":"Server name lorem",
+        "select":false,
+        "status":"down",
+        "activitySchedule":15,
+        "upComingSchedule":"<span class='time-display'>08:40 AM</span> Patch"
+      }
+    ],
+    "filter":[
+      {
+        "name":"Server Name",
+        "checked":true
+      },
+      {
+        "name":"Server Status",
+        "checked":true
+      },
+      {
+        "name":"Activity Scheduled",
+        "checked":true
+      },
+      {
+        "name":"Upcoming Scheduled",
+        "checked":true
+      },
+      {
+        "name":"App Name",
+        "checked":true
+      },
+      {
+        "name":"Instance Name",
+        "checked":true
+      },
+      {
+        "name":"Instance Id",
+        "checked":true
+      },
+      {
+        "name":"Instance Role",
+        "checked":false
+      },
+      {
+        "name":"Instance Region/vpc",
+        "checked":false
+      },
+      {
+        "name":"Column Info Lorem",
+        "checked":false
+      },
+      {
+        "name":"Column Info Lorem",
+        "checked":false
+      }
+    ]
+  }
+]

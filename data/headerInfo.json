@@ -1,0 +1,8 @@
+{
+  "running_servers": 40,
+  "standby_servers": 7,
+  "stopped_servers": 10,
+  "uptime": 74,
+  "downtime": 31,
+  "costSavings": 4000
+}

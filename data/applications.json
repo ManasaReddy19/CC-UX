@@ -1,0 +1,176 @@
+[
+  {
+    "serverStatus":{
+      "running":5,
+      "standby":3,
+      "shutdown":2
+    },
+    "serverTime":{
+      "uptime":68,
+      "downtime":23,
+      "overtime":"$5,250"
+    },
+    "apps":[
+      {
+        "name":"ACME APP",
+        "status":"up",
+        "environment":4,
+        "servers": 97,
+        "downtime":4,
+        "activities":21,
+        "activityTypes":[
+          {
+            "name":"DEV",
+            "count":4
+          },
+          {
+            "name":"PRD",
+            "count":7
+          },
+          {
+            "name":"QA",
+            "count":6
+          },
+          {
+            "name":"STG",
+            "count":4
+          }
+        ],
+        "nextActivity":"Power Down",
+        "nextActivityTime":"2h 15m"
+      },
+      {
+        "name":"App Name Lorem",
+        "status":"over",
+        "environment":3,
+        "servers": 83,
+        "downtime":5,
+        "activities":16,
+        "activityTypes":[
+          {
+            "name":"DEV",
+            "count":5
+          },
+          {
+            "name":"PRD",
+            "count":6
+          },
+          {
+            "name":"QA",
+            "count":5
+          }
+        ],
+        "nextActivity":"Patch  End",
+        "nextActivityTime":"0h 50m"
+      },
+      {
+        "name":"App Name Lorem",
+        "status":"down",
+        "environment":4,
+        "servers": 65,
+        "downtime":5,
+        "activities":16,
+        "activityTypes":[
+          {
+            "name":"DEV",
+            "count":4
+          },
+          {
+            "name":"PRD",
+            "count":7
+          },
+          {
+            "name":"QA",
+            "count":6
+          },
+          {
+            "name":"STG",
+            "count":4
+          }
+        ],
+        "nextActivity":"Patch  End",
+        "nextActivityTime":"0h 50m"
+      },
+      {
+        "name":"ACME APP 2",
+        "status":"up",
+        "environment":4,
+        "servers": 82,
+        "downtime":4,
+        "activities":21,
+        "activityTypes":[
+          {
+            "name":"DEV",
+            "count":4
+          },
+          {
+            "name":"PRD",
+            "count":7
+          },
+          {
+            "name":"QA",
+            "count":6
+          },
+          {
+            "name":"STG",
+            "count":4
+          }
+        ],
+        "nextActivity":"Power Down",
+        "nextActivityTime":"2h 15m"
+      },
+      {
+        "name":"App Name Lorem",
+        "status":"up",
+        "environment":3,
+        "servers": 76,
+        "downtime":5,
+        "activities":16,
+        "activityTypes":[
+          {
+            "name":"DEV",
+            "count":5
+          },
+          {
+            "name":"PRD",
+            "count":6
+          },
+          {
+            "name":"QA",
+            "count":5
+          }
+        ],
+        "nextActivity":"Patch  End",
+        "nextActivityTime":"0h 50m"
+      },
+      {
+        "name":"App Name Lorem",
+        "status":"over",
+        "environment":4,
+        "servers": 83,
+        "downtime":5,
+        "activities":16,
+        "activityTypes":[
+          {
+            "name":"DEV",
+            "count":4
+          },
+          {
+            "name":"PRD",
+            "count":7
+          },
+          {
+            "name":"QA",
+            "count":6
+          },
+          {
+            "name":"STG",
+            "count":4
+          }
+        ],
+        "nextActivity":"Patch  End",
+        "nextActivityTime":"0h 50m"
+      }
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "serverStatus":{
+      "running":2,
+      "standby":1,
+      "shutdown":1
+    },
+    "serverTime":{
+      "uptime":43,
+      "downtime":15,
+      "overtime":"$5,250"
+    },
+    "environment":4,
+    "appServers": 97,
+    "servers":[
+      {
+        "name":"Development",
+        "status":"over",
+        "servers":25,
+        "up":20,
+        "down":5,
+        "activities":5,
+        "nextActivity":"Power Down",
+        "nextActivityTime":"1h 45m",
+        "activitySchedule":[
+          {
+            "val":"01/14/16",
+            "class":"white",
+            "status":""
+          },
+          {
+            "val":"05:00 AM",
+            "class":"green",
+            "status":"Start"
+          },
+          {
+            "val":"08:00 AM",
+            "class":"blue",
+            "status":"Stop"
+          }
+        ]
+      },
+      {
+        "name":"Production",
+        "status":"up",
+        "servers":27,
+        "up":27,
+        "down":0,
+        "activities":12,
+        "nextActivity":"Power Down",
+        "nextActivityTime":"1h 45m",
+        "activitySchedule":[
+          {
+            "val":"01/14/16",
+            "class":"white",
+            "status":""
+          },
+          {
+            "val":"05:00 AM",
+            "class":"blue",
+            "status":"Start"
+          },
+          {
+            "val":"08:00 AM",
+            "class":"blue",
+            "status":"Stop"
+          }
+        ]
+      },
+      {
+        "name":"QA",
+        "status":"up",
+        "servers":26,
+        "up":26,
+        "down":0,
+        "activities":8,
+        "nextActivity":"Power Down",
+        "nextActivityTime":"1h 45m",
+        "activitySchedule":[
+          {
+            "val":"01/14/16",
+            "class":"white",
+            "status":""
+          },
+          {
+            "val":"05:00 AM",
+            "class":"blue",
+            "status":"Start"
+          },
+          {
+            "val":"08:00 AM",
+            "class":"blue",
+            "status":"Stop"
+          }
+        ]
+      },
+      {
+        "name":"Stage",
+        "status":"down",
+        "servers":19,
+        "up":0,
+        "down":12,
+        "activities":12,
+        "nextActivity":"Power Down",
+        "nextActivityTime":"1h 45m",
+        "activitySchedule":[
+          {
+            "val":"01/14/16",
+            "class":"white",
+            "status":""
+          },
+          {
+            "val":"05:00 AM",
+            "class":"blue",
+            "status":"Start"
+          },
+          {
+            "val":"08:00 AM",
+            "class":"blue",
+            "status":"Stop"
+          }
+        ]
+      }
+    ],
+    "sidebarFilter":false,
+    "specificActivities":[
+      {
+        "name":"Acme App",
+        "subName":"All Level",
+        "expand":false,
+        "activities":[
+          {
+            "name":"Development",
+            "expand":false,
+            "checked":true,
+            "subName":"All Servers"
+          },
+          {
+            "name":"Production",
+            "expand":false,
+            "checked":true,
+            "subName":"All Servers"
+          },
+          {
+            "name":"QA",
+            "expand":false,
+            "checked":true,
+            "subName":"All Servers"
+          },
+          {
+            "name":"Stage",
+            "expand":false,
+            "checked":true,
+            "subName":"All Servers"
+          }
+        ]
+      }
+    ],
+    "activities":[
+      {
+        "title":"<a href='javascript:'>Acme App</a> started",
+        "time":"12 minutes ago"
+      },
+      {
+        "title":"<a href='javascript:'>Acme App</a><span class='arrow'>&gt;</span><a href='javascript:'>Production</a> patch started",
+        "time":"10 minutes ago"
+      },
+      {
+        "title":"<a href='javascript:'>Acme App</a> patch started",
+        "time":"in <span>5 minutes</span>"
+      },
+      {
+        "title":"Disk size for <a href='javascript:'>Acme App</a><span class='arrow'>&gt;</span><a href='javascript:'>Development</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> started",
+        "time":"in <span>1 minutes</span>"
+      },
+      {
+        "title":"<a href='javascript:'>Acme App</a><span class='arrow'>&gt;</span><a href='javascript:'>Stage</a> patched",
+        "time":"23 minutes ago"
+      },
+      {
+        "title":"<a href='javascript:'>Acme App</a><span class='arrow'>&gt;</span><a href='javascript:'>QA</a> Stopped",
+        "time":"23 minutes ago"
+      },
+      {
+        "title":"<a href='javascript:'>Acme App</a> patch started",
+        "time":"in <span>5 minutes</span>"
+      },
+      {
+        "title":"Disk size for <a href='javascript:'>Acme App</a><span class='arrow'>&gt;</span><a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> started",
+        "time":"1 hour ago"
+      }
+    ],
+    "isModule":false,
+    "dashboardModules":[
+      {
+        "name":"ACTIVITIES MODULE",
+        "checked":true
+      },
+      {
+        "name":"Acme App",
+        "checked":true,
+        "expand":false,
+        "subModule":[
+          {
+            "name":"Acme App",
+            "checked":true
+          }
+        ]
+      },
+      {
+        "name":"Application Name",
+        "checked":true,
+        "expand":false,
+        "subModule":[
+          {
+            "name":"Acme App",
+            "checked":true
+          }
+        ]
+      },
+      {
+        "name":"Application Name",
+        "checked":false,
+        "expand":true,
+        "subModule":[
+          {
+            "name":"Environment Name",
+            "checked":false,
+            "expand":true,
+            "limit":3,
+            "subModule":[
+              {
+                "name":"DB Server",
+                "checked":true
+              },
+              {
+                "name":"Server Name 1",
+                "checked":true
+              },
+              {
+                "name":"Server Name 2",
+                "checked":false
+              },
+              {
+                "name":"Server Name 3",
+                "checked":true
+              },
+              {
+                "name":"Server Name 4",
+                "checked":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"Longnamus Application",
+        "checked":true,
+        "expand":false,
+        "subModule":[
+          {
+            "name":"Acme App",
+            "checked":true
+          }
+        ]
+      },
+      {
+        "name":"App Name Lorem",
+        "checked":true,
+        "expand":false,
+        "subModule":[
+          {
+            "name":"Acme App",
+            "checked":true
+          }
+        ]
+      },
+      {
+        "name":"Longnamus Application",
+        "checked":true,
+        "expand":false,
+        "subModule":[
+          {
+            "name":"Acme App",
+            "checked":true
+          }
+        ]
+      },
+      {
+        "name":"Application Name",
+        "checked":true,
+        "expand":false,
+        "subModule":[
+          {
+            "name":"Acme App",
+            "checked":true
+          }
+        ]
+      }
+    ]
+  }
+]

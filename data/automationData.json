@@ -1,0 +1,308 @@
+[
+  {
+    "name":"Acme App",
+    "sendNotification":true,
+    "schedules":[
+      {
+        "date":"Mon Feb 01 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 01 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 01 2016 10:00:00",
+            "note":"<div>Application Power Down</div>"
+          },
+          {
+            "time" :"Mon Feb 01 2016 14:00:00",
+            "note":"<div>Application Restart</div><a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 01 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 01 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 10 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 10 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 10 2016 10:00:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 10 2016 14:00:00",
+            "note":"<a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Down</span>"
+          },
+          {
+            "time" :"Mon Feb 10 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 10 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 11 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 11 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 11 2016 10:00:00",
+            "note":"<div>Application Power Down</div>"
+          },
+          {
+            "time" :"Mon Feb 11 2016 14:00:00",
+            "note":"<div>Application Restart</div><a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 11 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 11 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 15 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 15 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 15 2016 10:00:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 15 2016 14:00:00",
+            "note":"<a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Down</span>"
+          },
+          {
+            "time" :"Mon Feb 15 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 15 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 16 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 16 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 16 2016 10:00:00",
+            "note":"<div>Application Power Down</div>"
+          },
+          {
+            "time" :"Mon Feb 16 2016 14:00:00",
+            "note":"<div>Application Restart</div><a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 16 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 16 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 20 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 20 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 20 2016 10:00:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 20 2016 14:00:00",
+            "note":"<a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Down</span>"
+          },
+          {
+            "time" :"Mon Feb 20 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 20 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 22 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 22 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 22 2016 10:00:00",
+            "note":"<div>Application Power Down</div>"
+          },
+          {
+            "time" :"Mon Feb 22 2016 14:00:00",
+            "note":"<div>Application Restart</div><a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 22 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 22 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 23 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 23 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 23 2016 10:00:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 23 2016 14:00:00",
+            "note":"<a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Down</span>"
+          },
+          {
+            "time" :"Mon Feb 23 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 23 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 24 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 24 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 24 2016 10:00:00",
+            "note":"<div>Application Power Down</div>"
+          },
+          {
+            "time" :"Mon Feb 24 2016 14:00:00",
+            "note":"<div>Application Restart</div><a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 24 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 24 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 25 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 25 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 25 2016 10:00:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 25 2016 14:00:00",
+            "note":"<a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Down</span>"
+          },
+          {
+            "time" :"Mon Feb 25 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 25 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 26 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 26 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 26 2016 10:00:00",
+            "note":"<div>Application Power Down</div>"
+          },
+          {
+            "time" :"Mon Feb 26 2016 14:00:00",
+            "note":"<div>Application Restart</div><a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 26 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 26 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      },
+      {
+        "date":"Mon Feb 27 2016",
+        "timeScheduled": [
+          {
+            "time" :"Mon Feb 27 2016 07:00:00",
+            "note":"<a href='javascript:'>QA</a><span class='arrow'>&gt;</span><a href='javascript:'>Server Name</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 27 2016 10:00:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          },
+          {
+            "time" :"Mon Feb 27 2016 14:00:00",
+            "note":"<a href='javascript:'>Stage</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Down</span>"
+          },
+          {
+            "time" :"Mon Feb 27 2016 15:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Start</span>"
+          },
+          {
+            "time" :"Mon Feb 27 2016 16:30:00",
+            "note":"<a href='javascript:'>Production</a><span class='arrow'>&gt;</span><a href='javascript:'>DB Server</a> <span>Stop</span>"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+<!doctype html>
+<html data-ng-app="App">
+<head>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- CSS Style -->
+    <link href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"
+          type="text/css">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/normalize-css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="css/screen.css" rel="stylesheet" type="text/css">
+    <link href="css/splash.css" rel="stylesheet" type="text/css">
+    <link href="css/anime.css" rel="stylesheet" type="text/css">
+
+    <!-- inject:css -->
+    <!-- endinject -->
+
+    <title>GE Cloud Control</title>
+
+</head>
+<body class="pages">
+
+<header class="header" data-ng-include="'templates/Header.html'"></header>
+
+<div class="container-fluid cc-body">
+    <div class="row cc-intro-section">
+        <div class="col-sm-7">
+            <div class="row">
+                <div class="easeInLeft cc-welcome-container col-sm-5">
+                    <h1><b>Welcome</b> to</h1>
+                </div>
+
+                <div class="easeInLeft cc-ge-logo col-sm-7">
+                    <img src="i/cc-logo-large.png" class="img-responsive center-it" alt="ge-logo">
+                </div>
+            </div>
+        </div>
+        <div class="fadeIn col-sm-5">
+            <div class="cc-intro-right">
+                <img src="i/user-large.jpg" class="img-circle img-responsive profile-pic" alt="user"/>
+            </div>
+            <div class="cc-intro-right-greeting">
+                <h1>Good Afternoon Bill!</h1>
+            </div>
+            <div class="cc-intro-right-status">
+                <div class="status-check"><h3><i class="fa fa-check"></i> All the services seem to be running fine.</h3>
+                </div>
+                <div class="status-check"><h3><i class="fa fa-check"></i> Click on one of the services to get started.
+                </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row cc-icon-section-container">
+        <div class="col-sm-2 cc-icon-container">
+            <div class="easeInLeft">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="app.html#/dashboard" id="dashboard" title="Dashboard">
+                            <img src="icons/Icon-A-1-2.png" alt="dashboard" class="img-responsive center-it"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row cc-icon-text">
+                    <div class="col-sm-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;This is the Dashboard. Your text goes here. Please click on
+                        this.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 cc-icon-container">
+            <div class="easeInTop">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href id="activities" title="Activities">
+                            <img src="icons/Icon-A-2-2.png" alt="activities" class="img-responsive center-it"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row cc-icon-text">
+                    <div class="col-sm-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Your Activities. Your text goes here. Please click on
+                        this.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 cc-icon-container">
+            <div class="easeInDown">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="app.html#/applications" id="applications" title="Applications">
+                            <img src="icons/Icon-A-3-2.png" alt="applications" class="img-responsive center-it"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row cc-icon-text">
+                    <div class="col-sm-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Your Applications. Your text goes here. Please click on
+                        this.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 cc-icon-container">
+            <div class="easeInTop">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="app.html#/environment" id="server" title="Servers">
+                            <img src="icons/Icon-A-4-2.png" alt="server" class="img-responsive center-it"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row cc-icon-text">
+                    <div class="col-sm-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;All your Servers in one place. Your text goes here. Please click
+                        on this.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 cc-icon-container">
+            <div class="easeInDown">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href id="profile" title="Profile">
+                            <img src="icons/Icon-A-5-2.png" alt="profile" class="img-responsive center-it"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row cc-icon-text">
+                    <div class="col-sm-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;This is your Profile. Your text goes here. Please click on
+                        this.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 cc-icon-container">
+            <div class="easeInRight">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href id="settings" title="Settings">
+                            <img src="icons/Icon-A-6-2.png" alt="settings" class="img-responsive center-it"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row cc-icon-text">
+                    <div class="col-sm-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Your Settings. Your text goes here. Please click on
+                        this.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!--External javascript:-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="bower_components/angular-off-click/offClick.js"></script>
+<script src="bower_components/ng-table/dist/ng-table.min.js"></script>
+<script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="bower_components/ng-scrollbars/dist/scrollbars.min.js"></script>
+
+<script src="js/app.module.js"></script>
+<script src="js/services/main.service.js"></script>
+<script src="splash.js"></script>
+<!-- inject:js -->
+<!-- endinject -->
+</html>
